@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+
+\usepackage{setspace}\doublespacing
+\usepackage[superscript]{cite}
+\usepackage{indentfirst} 
+\newcommand*\samethanks[1][\value{footnote}]{\footnotemark[#1]}
+\newcommand{\authors}{Alison Tuiyott\thanks{Miami University Department of Statistics,  501 E High St, Oxford, OH 45056}, Dr. John Bailer\samethanks}
+
+\begin{document}
+\title{PUBLIC HEALTH EDUCATION: TITLE}
+\author{}
+\date{} 
+
+\hfill\authors
+
+
+\section*{Abstract: 250 words or less, up to 5 search terms}
+
+\textbf{Background}:hello
+
+\textbf{Methods:}
+
+\textbf{Results:}
+
+\textbf{Conclusions:}
+
+\textbf{Key words: Butler County, Overdose, Opioid, Death, Ohio}
+
+\section*{Introduction}
+
+From 1999-2017, almost 400,000 people died from an overdose involving any opioid, including prescription and illicit opioids \textbf{1}.
+
+\section*{Methods}
+\subsection*{Setting:}
+hello
+\subsection*{Educational program description:}
+hello
+\subsection*{Measures/outcomes:}
+hello
+\subsection*{Statistical analysis:}
+hello
+
+
+\section*{Results}
+In text figures and tables (5 total (if relevant))
+
+\section*{Discussion}
+hello.
+
+\section*{Implication for public health education}
+hello.
+
+\section*{Acknowledgements}
+hello.
+
+\section*{References}
+hello
+
+\end{document} 
