@@ -1,10 +1,11 @@
 \documentclass[12pt]{article}
 
 \usepackage{setspace}\doublespacing
+\usepackage{graphicx}
 \usepackage[superscript]{cite}
 \usepackage{indentfirst} 
 \newcommand*\samethanks[1][\value{footnote}]{\footnotemark[#1]}
-\newcommand{\authors}{Alison Tuiyott\thanks{Miami University Department of Statistics,  501 E High St, Oxford, OH 45056}, Dr. John Bailer\samethanks}
+\newcommand{\authors}{Alison Tuiyott\thanks{Miami University Department of Statistics,  501 E High St, Oxford, OH 45056}, John Bailer, PhD \samethanks, Lisa Mannix, M.D. \thanks{Butler County Coroner's Office, 315 High Street, Hamilton, OH 45011 }}
 
 \begin{document}
 \title{PUBLIC HEALTH EDUCATION: TITLE}
@@ -32,35 +33,67 @@ From 1999-2017, almost 400,000 people died from an overdose involving any opioid
 
 The Butler County Overdose Deaths application was created as a result of an undergraduate senior capstone project. In April 2018, the two students, Bri Clements and Katherine Shockey, released the first version of the application with the help of their faculty sponsor, John Bailer. A year later, the application was enhanced in its second version by three students (Rachael Lewis, Lulu Liu, and Alison Tuiyott) in their undergraduate senior capstone project sponsored by the same faculty, John Bailer. 
 
-Using the application, users can explore the demographics (gender, race/ethnicity, and age range) associated with the type of drug found in the decedent. A decedent is a person who has died. Users can also analyze annual trends in types of drugs and categories of drugs found in decedents. The application also contains an
+Data visualization is defined as graphical representations of information and data. Data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data \textbf{4}. Using the application, users can explore the demographics (gender, race/ethnicity, and age range) associated with the type of drug found in the decedent, or a person who has died. Users can also analyze annual trends in types of drugs and categories of drugs found in decedents. The application also contains location information: a map of Butler County displaying the relative address of each overdose incident, annual trends of overdose incidents by city or township, and the types of places the overdose incidents occurred. This article delves into the process of creating such an application.
+
+ADDRESS FEEDBACK FROM CORONER \textbf{and} OTHER PEOPLE WHO BENEFIT \textbf{and} HOW THEY BENEFIT \textbf{and} Data driven solutions
+
+In order to increase awareness and educate the public about the epidemic, it is important to use tools that are easily interpretable.
 
 \section*{Methods}
+
 \subsection*{Setting:}
-hello
+
+The data was collected in Butler County, Ohio. The data used in the application was specifically overdose deaths from 2013 to 2018. \textbf{Statistic about distribution of total number of overdose deaths in 2018}
+
 \subsection*{Educational program description:}
-hello
+
+\textbf{Not sure what to describe here.}
+
 \subsection*{Measures/outcomes:}
-hello
+
+\textbf{Not sure if relevant}
+
 \subsection*{Statistical analysis:}
-hello
+
+Should I discuss the data handling here? Like the format of the data and the aggregation process to create the shiny app?
+
 
 
 \section*{Results}
-In text figures and tables (5 total (if relevant))
+
+What results are we discussing?
+
+\includegraphics{Demographics_2.PNG}
+
+
+\includegraphics{Demographics.PNG}
+
+\includegraphics{AnnualTrends_Drug.PNG}
+
+\includegraphics{AnnualTrends_City.PNG}
+
+\includegraphics{Location.PNG}
+
 
 \section*{Discussion}
-hello.
+
+How is this different from the implication section
 
 \section*{Implication for public health education}
-hello.
+
+Need to discuss
 
 \section*{Acknowledgements}
-hello.
+
+The authors would like to thank the Butler County Coroner's Office and the Department of Statistics at Miami University for the generous support of this project.
 
 \section*{References}
-1. https://www.cdc.gov/drugoverdose/epidemic/index.html
-2. https://www.cdc.gov/drugoverdose/data/statedeaths.html
-3. https://www.countyhealthrankings.org/app/ohio/2019/measure/factors/138/data?sort=desc-3
+1. Understanding the Epidemic | Drug Overdose | CDC Injury Center. (2018, December 19). Retrieved from https://www.cdc.gov/drugoverdose/epidemic/index.html
 
+2. Drug Overdose Deaths | Drug Overdose | CDC Injury Center. (2019, June 27). Retrieved from https://www.cdc.gov/drugoverdose/data/statedeaths.html
+
+3. Rankings. (2019). Retrieved from https://www.countyhealthrankings.org/app/ohio/2019/measure/factors/138/data?sort=desc-3
+
+4. Data visualization beginner's guide: a definition, examples, and learning resources. (2019). Retrieved from https://www.tableau.com/learn/articles/data-visualization
 
 \end{document} 
