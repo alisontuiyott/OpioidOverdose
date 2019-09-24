@@ -28,7 +28,11 @@
 
 \section*{Introduction}
 
-From 1999-2017, almost 400,000 people died from an overdose involving any opioid, including prescription and illicit opioids \textbf{1}.
+From 1999-2017, almost 400,000 people died from an overdose involving any opioid, including prescription and illicit opioids \textbf{1}. In 2016, Ohio had the second highest rate of drug overdose deaths \textbf{2}. Out of 88 counties in Ohio, Butler County, had the third largest rate of drug overdose deaths \textbf{3}. This article highlights the development of a data visualization application designed to provide public access to this crucial information about Butler County in a more user friendly manner. The Butler County Overdose Deaths application is an interactive application that enables users to analyze the overdose deaths data for Butler County, Ohio. By publicizing this data, the Bulter County community and other communities can be more knowledgeable of this epidemic.
+
+The Butler County Overdose Deaths application was created as a result of an undergraduate senior capstone project. In April 2018, the two students, Bri Clements and Katherine Shockey, released the first version of the application with the help of their faculty sponsor, John Bailer. A year later, the application was enhanced in its second version by three students (Rachael Lewis, Lulu Liu, and Alison Tuiyott) in their undergraduate senior capstone project sponsored by the same faculty, John Bailer. 
+
+Using the application, users can explore the demographics (gender, race/ethnicity, and age range) associated with the type of drug found in the decedent. A decedent is a person who has died. Users can also analyze annual trends in types of drugs and categories of drugs found in decedents. The application also contains an
 
 \section*{Methods}
 \subsection*{Setting:}
@@ -54,6 +58,9 @@ hello.
 hello.
 
 \section*{References}
-hello
+1. https://www.cdc.gov/drugoverdose/epidemic/index.html
+2. https://www.cdc.gov/drugoverdose/data/statedeaths.html
+3. https://www.countyhealthrankings.org/app/ohio/2019/measure/factors/138/data?sort=desc-3
+
 
 \end{document} 
